@@ -34,6 +34,6 @@ export default function OurTeam() {
     
           {/* Placeholder for services list */}
             <TeamComponent data={data} />
-        </div>
+    </div>
   )
 }

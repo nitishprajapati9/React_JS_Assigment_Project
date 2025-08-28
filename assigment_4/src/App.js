@@ -7,6 +7,7 @@ import OurTeam from './Components/OurTeam';
 import Project from './Components/Project';
 import OurClients from './Components/OurClients';
 import HeroSection from './Components/HeroSection';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <OurTeam />
       <Project/>
       <OurClients />
+      <Footer/>
     </React.Fragment>
   );
 }
