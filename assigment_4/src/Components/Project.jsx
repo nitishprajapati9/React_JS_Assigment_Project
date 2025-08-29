@@ -2,9 +2,13 @@ import React from 'react'
 import Project_Name from '../assests/Project_Name.svg'
 import Project_Name_2 from '../assests/Project_Name_2.svg'
 import Project_Name_3 from '../assests/Project_Name_3.svg'
-
+import ourProjectClipPath from '../assests/ourProjectClipPath.svg'
 export default function Project() {
   return (
+
+    <>
+    <div className='relative'>
+      <img src={ourProjectClipPath} className='absolute -top-20 -translate-y-28 right-0 z-40 sm:display-none'/>
     <div className="container mx-auto flex flex-col justify-center items-center px-6 md:px-12 py-12 gap-8">
       
       <div className="flex flex-col items-center text-center">
@@ -36,5 +40,7 @@ export default function Project() {
         </div>
       </div>
     </div>
+    </div>
+    </>
   )
 }

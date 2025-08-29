@@ -1,8 +1,13 @@
 import React from 'react'
 
 export default function ServicesSubComponent({ data }) {
+  console.log(data.clipPath)
   return (
-    <div className="flex flex-col gap-12">
+   <>
+   <div className='relative'>
+      {/* <img src={data.clipPath} alt={data.title} className='absolute top-0 left-0 '/> */}
+     <div className="flex flex-col gap-12 relative">
+
       {data.map((item) => (
         <div
           key={item.id}
@@ -35,5 +40,7 @@ export default function ServicesSubComponent({ data }) {
         </div>
       ))}
     </div>
+   </div>
+   </>
   )
 }
